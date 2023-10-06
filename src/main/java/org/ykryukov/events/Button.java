@@ -1,4 +1,4 @@
-package org.ykryukov.events;
+package ykryukov.events;
 
 public class Button {
     private final EventHandler handler;

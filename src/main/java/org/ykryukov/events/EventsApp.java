@@ -1,4 +1,4 @@
-package org.ykryukov.events;
+package ykryukov.events;
 
 public class EventsApp {
     public static void main(String[] args) {

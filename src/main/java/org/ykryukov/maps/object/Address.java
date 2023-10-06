@@ -1,4 +1,4 @@
-package org.ykryukov.maps.object;
+package ykryukov.maps.object;
 
 import lombok.*;
 import lombok.experimental.NonFinal;

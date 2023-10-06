@@ -1,4 +1,4 @@
-package org.ykryukov.maps.simple;
+package ykryukov.maps.simple;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

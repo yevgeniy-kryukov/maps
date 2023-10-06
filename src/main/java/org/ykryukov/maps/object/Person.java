@@ -1,4 +1,4 @@
-package org.ykryukov.maps.object;
+package ykryukov.maps.object;
 
 import java.util.ArrayList;
 import java.util.List;

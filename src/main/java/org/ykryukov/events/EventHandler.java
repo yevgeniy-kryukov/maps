@@ -1,4 +1,4 @@
-package org.ykryukov.events;
+package ykryukov.events;
 
 public interface EventHandler {
     void execute();

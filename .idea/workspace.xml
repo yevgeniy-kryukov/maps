@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f8b6cec0-9535-48f2-b425-e70e04a78fcc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ykryukov/events/Button.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ykryukov/events/ButtonClickHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ykryukov/events/EventHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ykryukov/events/EventsApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ykryukov/events/EventsApp2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ykryukov/maps/object/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ykryukov/maps/object/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ykryukov/maps/object/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ykryukov/maps/object/Printable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ykryukov/maps/object/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ykryukov/maps/simple/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2WNu4Xm78nO7vGRMZGkxMZE8Eoh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\java_learn\maps\src\main\java\org\example" />
+      <recent name="D:\java_learn\maps\src\main\java" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f8b6cec0-9535-48f2-b425-e70e04a78fcc" name="Changes" comment="" />
+      <created>1696585169337</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696585169337</updated>
+    </task>
+    <servers />
+  </component>
+</project>
