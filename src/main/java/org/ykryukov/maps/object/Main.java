@@ -4,9 +4,13 @@ import java.util.*;
 
 public class Main {
     private static void printMap(Map<Person, Status> map) {
-        Set<Person> keys = map.keySet();
-        for (Person key : keys) {
-            System.out.println(key + " => " + map.get(key));
+//        Set<Person> keys = map.keySet();
+//        for (Person key : keys) {
+//            System.out.println(key + " => " + map.get(key));
+//        }
+
+        for(Map.Entry<Person,Status> el: map.entrySet()) {
+            System.out.println(el.getKey() + "=>" + el.getValue());
         }
     }
 
