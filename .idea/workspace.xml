@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8b6cec0-9535-48f2-b425-e70e04a78fcc" name="Changes" comment="same changes">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ykryukov/maps/object/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ykryukov/maps/object/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ykryukov/maps/simple/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ykryukov/maps/simple/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +40,33 @@
       <recent name="D:\java_learn\maps\src\main\java" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.EventsApp2">
+    <configuration name="EventsApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ykryukov.events.EventsApp" />
+      <module name="maps" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ykryukov.events.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventsApp2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ykryukov.events.EventsApp2" />
+      <module name="maps" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ykryukov.events.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.ykryukov.maps.object.Main" />
       <module name="maps" />
@@ -53,8 +80,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.ykryukov.maps.simple.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ykryukov.maps.simple.Main" />
+      <module name="maps" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ykryukov.maps.simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ykryukov.maps.simple.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ykryukov.maps.simple.Main" />
+      <module name="maps" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ykryukov.maps.simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EventsApp2" />
+        <item itemvalue="Application.EventsApp" />
+        <item itemvalue="Application.org.ykryukov.maps.simple.Main" />
+        <item itemvalue="Application.ykryukov.maps.simple.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -84,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696596880620</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="same changes">
+      <option name="closed" value="true" />
+      <created>1696597366566</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696597366566</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
