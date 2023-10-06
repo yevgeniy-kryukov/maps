@@ -1,4 +1,4 @@
-package ykryukov.maps.object;
+package org.ykryukov.maps.object;
 
 import lombok.*;
 import lombok.experimental.NonFinal;
@@ -6,7 +6,9 @@ import lombok.experimental.NonFinal;
 @Value
 class Address implements Cloneable {
     int id;
+
     String street;
+
     @NonFinal
     String house;
 
