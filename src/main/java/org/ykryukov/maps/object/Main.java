@@ -1,6 +1,7 @@
 package org.ykryukov.maps.object;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class Main {
     private static void printMap(Map<Person, Status> map) {
@@ -9,8 +10,36 @@ public class Main {
 //            System.out.println(key + " => " + map.get(key));
 //        }
 
-        for(Map.Entry<Person,Status> el: map.entrySet()) {
+        for (Map.Entry<Person, Status> el : map.entrySet()) {
             System.out.println(el.getKey() + "=>" + el.getValue());
+        }
+    }
+
+    private static void printMapPersonsGroupByAddress(Map<Person, Status> map) {
+//        Map<Address, Map<Status, Person>> result = map.entrySet().stream().collect(
+//                Collectors.groupingBy(el -> el.getKey().getAddress(),
+//                        Collectors.mapping(el -> el.getKey(), Collectors.toSet())));
+
+//        for (Map.Entry<Address, Set<Person>> el : result.entrySet()) {
+//            System.out.println("Address " + el.getKey() + ": ");
+//            for (Person el2 : el.getValue()) {
+//                System.out.println(el2.getFullName());
+//            }
+//        }
+
+        Map<Address, Map<Status, Set<Person>>> result = map.entrySet().stream().collect(
+                Collectors.groupingBy(el -> el.getKey().getAddress(),
+                        Collectors.groupingBy(el -> el.getValue(),
+                                Collectors.mapping(el->el.getKey(), Collectors.toSet()))));
+
+        for (Map.Entry<Address, Map<Status, Set<Person>>> el : result.entrySet()) {
+            System.out.println("Address " + el.getKey() + ": ");
+            for (Map.Entry<Status, Set<Person>> el2: el.getValue().entrySet()) {
+                System.out.println("  Status " + el2.getKey().getName() + ": ");
+                for(Person el3: el2.getValue()) {
+                    System.out.println("   -" + el3.getFullName());
+                }
+            }
         }
     }
 
@@ -25,7 +54,7 @@ public class Main {
         Address address4 = new Address(4, "vcbxcvbxcvbass", "79");
         Address address5 = new Address(5, "TTGdfhfg", "88");
 
-        Person person1 = new Person(1, "Tfghdf", "afasdfasdf", "sdfsdf",
+        Person person1 = new Person(1, "Tfghdf", "afasdfasdf", "isdfsdf",
                 new ArrayList<String>(Arrays.asList("+745654445", "+781654655544")),
                 address1);
 
@@ -37,12 +66,20 @@ public class Main {
                 new ArrayList<String>(Arrays.asList("+73444324234")),
                 address3);
 
-        Person person4 = new Person(4, "EWRTWETRwetwert", "fsdgsdfg", "fdsgd",
+        Person person4 = new Person(4, "EWRTWETRwetwert", "fsdgsdfg", "ifdsgd",
                 new ArrayList<String>(Arrays.asList("+7999988777")),
                 address1);
 
         Person person5 = new Person(5, "qqqwwwwwEEE", "dfgsdfgsdfg s", "fgsdgfsdf",
                 new ArrayList<String>(Arrays.asList("+76111111555")),
+                address4);
+
+        Person person6 = new Person(6, "YYSRTERT", "FASdf", "QQEWr21331",
+                new ArrayList<String>(Arrays.asList("+785475623442")),
+                address1);
+
+        Person person7 = new Person(7, "ZCXVvzxcv", "JRTYERTe", "WERTwe324",
+                new ArrayList<String>(Arrays.asList("+7345674563453")),
                 address4);
 
         //address4.id = 44444444;
@@ -61,9 +98,15 @@ public class Main {
         persons.put(person3, status3);
         persons.put(person1, status2);
         persons.put(person5, status3);
+        persons.put(person4, status2);
+        persons.put(person6, status3);
+        persons.put(person7, status3);
 
         System.out.println("вывести список персон");
         printMap(persons);
         System.out.println("-------------------");
+
+        System.out.println("вывести список персон сгруппированных по адресу");
+        printMapPersonsGroupByAddress(persons);
     }
 }
